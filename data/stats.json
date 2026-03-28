@@ -1,15 +1,18 @@
 {
   "level": 1,
-  "xp": 0,
+  "xp": 50,
   "xpToNext": 100,
-  "tasksCompleted": 0,
-  "tasksSuccessful": 0,
-  "totalResponseTimeMs": 0,
-  "responseCount": 0,
+  "tasksCompleted": 1,
+  "tasksSuccessful": 1,
+  "totalResponseTimeMs": 2000,
+  "responseCount": 1,
   "skillsUnlocked": [],
-  "achievements": [],
-  "streak": 0,
-  "lastActiveDate": "2026-03-28",
-  "createdAt": "2026-03-28T20:11:30.264Z",
-  "updatedAt": "2026-03-28T20:11:30.264Z"
+  "achievements": [
+    "first_blood",
+    "speed_demon"
+  ],
+  "streak": 1,
+  "lastActiveDate": "2026-03-29",
+  "createdAt": "2026-03-28T20:12:22.171Z",
+  "updatedAt": "2026-03-28T20:12:24.184Z"
 }

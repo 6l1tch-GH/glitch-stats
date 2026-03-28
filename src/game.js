@@ -51,8 +51,8 @@ function completeTask(description, difficulty = 'standard', modifiers = {}, resp
   // Save updated stats
   stats.saveStats(statsData);
   
-  // Add quest to history
-  quests.addQuest(description, difficulty);
+  // Add quest to history with XP
+  quests.addQuest(description, difficulty, totalXp, modifiers.success !== false);
   
   return {
     xpEarned: totalXp,

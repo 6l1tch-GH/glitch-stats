@@ -48,9 +48,12 @@ function completeQuest(questId, success = true, xpEarned = 0) {
   return quest;
 }
 
-function addQuest(description, difficulty = 'standard') {
+function addQuest(description, difficulty = 'standard', xpEarned = 0, success = true) {
   const data = loadQuests();
   const quest = createQuest(description, difficulty);
+  quest.xpEarned = xpEarned;
+  quest.success = success;
+  quest.completedAt = new Date().toISOString();
   data.quests.push(quest);
   saveQuests(data);
   return quest;

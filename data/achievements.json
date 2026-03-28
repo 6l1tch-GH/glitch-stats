@@ -82,5 +82,8 @@
       }
     }
   ],
-  "unlocked": []
+  "unlocked": [
+    "first_blood",
+    "speed_demon"
+  ]
 }
