@@ -1,22 +1,3 @@
 {
-  "quests": [
-    {
-      "id": "490263ab-751e-481d-be1e-e8ad43c18b4b",
-      "description": "Research gamification patterns",
-      "difficulty": "standard",
-      "xpEarned": 0,
-      "completedAt": null,
-      "success": false,
-      "createdAt": "2026-03-28T20:10:45.990Z"
-    },
-    {
-      "id": "8a33275e-127c-4600-8c0c-ca20ee913ad2",
-      "description": "Research gamification patterns",
-      "difficulty": "standard",
-      "xpEarned": 0,
-      "completedAt": null,
-      "success": false,
-      "createdAt": "2026-03-28T20:11:01.762Z"
-    }
-  ]
+  "quests": []
 }

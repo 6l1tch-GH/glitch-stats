@@ -6,15 +6,38 @@ Agent gamification system for OpenClaw. Track your agent's progression through R
 
 ```bash
 # Clone the repo
-git clone https://github.com/6l1tch/glitch-stats.git
+git clone https://github.com/6l1tch-GH/glitch-stats.git
 cd glitch-stats
-
-# Initialize data files
-node scripts/init.js
 
 # View stats
 node commands/stats.js
+
+# View quests
+node commands/quests.js
+
+# View achievements
+node commands/achievements.js
 ```
+
+## OpenClaw Integration
+
+The system auto-tracks task completion and updates stats at session end.
+
+### Manual Task Recording
+
+```bash
+node integration/openclaw-hook.js complete --desc "Task description" --difficulty standard --time 1500
+```
+
+Difficulty levels: `simple`, `standard`, `complex`, `epic`
+
+### Commands
+
+| Command | Description |
+|---------|-------------|
+| `node commands/stats.js` | Show current character status |
+| `node commands/quests.js` | View quest history |
+| `node commands/achievements.js` | Show unlocked/available achievements |
 
 ## Features
 
