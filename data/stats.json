@@ -1,0 +1,15 @@
+{
+  "level": 1,
+  "xp": 0,
+  "xpToNext": 100,
+  "tasksCompleted": 0,
+  "tasksSuccessful": 0,
+  "totalResponseTimeMs": 0,
+  "responseCount": 0,
+  "skillsUnlocked": [],
+  "achievements": [],
+  "streak": 0,
+  "lastActiveDate": "2026-03-28",
+  "createdAt": "2026-03-28T19:55:00Z",
+  "updatedAt": "2026-03-28T19:55:00Z"
+}
